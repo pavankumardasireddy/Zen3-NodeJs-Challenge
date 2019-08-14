@@ -1,0 +1,23 @@
+{
+  "name": "nodejs-challenge",
+  "version": "1.0.0",
+  "description": "Zen3- nodeJs challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pavankumardasireddy/Zen3-NodeJs-Challenge.git"
+  },
+  "author": "Pavankumar dasireddy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pavankumardasireddy/Zen3-NodeJs-Challenge/issues"
+  },
+  "homepage": "https://github.com/pavankumardasireddy/Zen3-NodeJs-Challenge#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
