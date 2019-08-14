@@ -4,7 +4,8 @@
   "description": "Zen3- nodeJs challenge",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"nodemon server/index.js\" "
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,10 @@
   },
   "homepage": "https://github.com/pavankumardasireddy/Zen3-NodeJs-Challenge#readme",
   "dependencies": {
+    "concurrently": "^4.1.1",
     "cors": "^2.8.5",
     "envfile": "^3.0.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "nodemon": "^1.19.1"
   }
 }
