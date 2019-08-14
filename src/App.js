@@ -73,6 +73,7 @@ class App extends Component {
             placeholder="New value to update here"
           />
           <button
+            type="button" class="btn btn-primary btn-sm"
             onClick={() =>
               this.updateProcessJson(process, key, value)
             }
