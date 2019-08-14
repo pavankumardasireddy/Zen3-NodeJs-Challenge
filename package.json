@@ -18,6 +18,7 @@
   "homepage": "https://github.com/pavankumardasireddy/Zen3-NodeJs-Challenge#readme",
   "dependencies": {
     "cors": "^2.8.5",
+    "envfile": "^3.0.0",
     "express": "^4.17.1"
   }
 }
