@@ -10,8 +10,10 @@ ReactJs
 nodeJs
 ```
 
-## install and running:
-> npm i
-> npm start
+## Install and running:
+```
+npm i
+npm start
+```
 
-***Note:*** As I set concurrently in package.json, both node and client will run automatically.
+***Note:*** As I set **concurrently** in *package.json*, both server and client will run automatically.
